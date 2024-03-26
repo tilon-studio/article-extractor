@@ -10,13 +10,6 @@
   "author": "@extractus",
   "main": "./src/main.js",
   "type": "module",
-  "imports": {
-    "cross-fetch": "./src/deno/cross-fetch.js"
-  },
-  "browser": {
-    "cross-fetch": "./src/deno/cross-fetch.js",
-    "linkedom": "./src/browser/linkedom.js"
-  },
   "types": "./index.d.ts",
   "engines": {
     "node": ">= 16"
